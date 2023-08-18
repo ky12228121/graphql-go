@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/go
+{
+  "name": "GraphQL-Go",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": ["--name=GraphQL-Go"],
+  "features": {
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
+    "ghcr.io/jungaretti/features/make:1": {},
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "TabNine.tabnine-vscode",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker",
+        "GraphQL.vscode-graphql",
+        "GraphQL.vscode-graphql-syntax"
+      ]
+    }
+  }
+}
