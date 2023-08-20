@@ -17,3 +17,26 @@ resolver:
   layout: follow-schema
   dir: graph
   package: graph
+
+models:
+  DateTime:
+    model:
+      - github.com/99designs/gqlgen/graphql.Time
+
+  URI:
+    model:
+      - graphql-go/graph/model.URI
+
+  Repository:
+    fields:
+      owner:
+        resolver: true
+      issue:
+        resolver: true
+      issues:
+        resolver: true
+      pullRequest:
+        resolver: true
+      pullRequests:
+        resolver: true
+

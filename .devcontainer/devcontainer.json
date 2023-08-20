@@ -20,7 +20,10 @@
         "oderwat.indent-rainbow",
         "streetsidesoftware.code-spell-checker",
         "GraphQL.vscode-graphql",
-        "GraphQL.vscode-graphql-syntax"
+        "GraphQL.vscode-graphql-syntax",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "alexcvzz.vscode-sqlite"
       ]
     }
   }
